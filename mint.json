@@ -1,54 +1,56 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Respell AI",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/dark.png",
+    "light": "/logo/light.png"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#9563FF",
-    "light": "#AE87FF",
-    "dark": "#0D001D",
+    "primary": "#5344E5",
+    "light": "#8F84F8",
+    "dark": "#5344E5",
     "background": {
       "dark": "#090014"
     },
     "anchors": {
-      "from": "#FF7F57",
-      "to": "#9563FF"
+      "from": "#5344E5",
+      "to": "#442E7E"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Sign Up",
+      "url": "https://respell.ai/register"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Log In",
+    "url": "https://respell.ai/login"
+  },
+  "primaryTab": {
+    "name": "Guides"
   },
   "tabs": [
     {
       "name": "API Reference",
       "url": "api-reference"
+    },
+    {
+      "name": "Changelog", 
+      "url": "changelog"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Talk to Us",
+      "icon": "envelope",
+      "url": "mailto:hello@respell.ai"
     },
     {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "icon": "discord", 
+      "url": "https://discord.gg/HTrvVTJT"
     }
   ],
   "navigation": [
@@ -62,7 +64,7 @@
       ]
     },
     {
-      "group": "block types 🪄",
+      "group": "Block Types 🪄",
       "pages": [
         "overview-1",
         "logic-blocks",
@@ -73,8 +75,7 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/respellai?lang=en",
+    "linkedin": "https://www.linkedin.com/company/respellai/"
   }
 }
