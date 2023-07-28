@@ -72,6 +72,16 @@
         "model-blocks",
         "integration-blocks"
       ]
+    },
+    {
+      "group": "Run Spell", 
+      "pages": ["api-reference/getting-started-with-your-api"]
+    },
+    {
+      "group": "Changelog", 
+      "pages": [
+        "changelog/overview"
+      ]
     }
   ],
   "footerSocials": {
